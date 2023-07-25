@@ -26,7 +26,7 @@ Now, we have a real symmetric matrix, that is, by the way covariances are expres
 $\vec{\lambda},\,\vec{V} = \texttt{torch.lineal.eig(}S\texttt{)}\;,$
 </p>
 
-Note that, the \texttt{PyTorch} library already sorted the Eigenvectors by the quantity of information retrieved in the Eigenvalues, and we can do a first analysis of the situation by calculing the Total Variance of the dataset ($T$), and how much of the total variance is represented in each of the Principal Components. The first Principal Component represents a $23.81\%$ of the total information.
+Note that, the $\texttt{PyTorch}$ library already sorted the Eigenvectors by the quantity of information retrieved in the Eigenvalues, and we can do a first analysis of the situation by calculing the Total Variance of the dataset ($T$), and how much of the total variance is represented in each of the Principal Components. The first Principal Component represents a $23.81\%$ of the total information.
 
 <p align='center'>
 $T=Tr(\vec{\lambda})=79.11\;,\quad \frac{\vec{\lambda_1}}{T} = 23.81\%\;,$
